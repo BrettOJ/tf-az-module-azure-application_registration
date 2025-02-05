@@ -1,7 +1,6 @@
-resource "azure_application_registration" "azad_app_reg" {
+resource "azuread_application_registration" "azad_app_reg" {
   description                            = var.description
   display_name                           = var.display_name
-  group_membership_claims                = var.group_membership_claims
   homepage_url                           = var.homepage_url
   implicit_access_token_issuance_enabled = var.implicit_access_token_issuance_enabled
   implicit_id_token_issuance_enabled     = var.implicit_id_token_issuance_enabled

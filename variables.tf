@@ -10,9 +10,9 @@ variable "display_name" {
 }
 
 variable "group_membership_claims" {
-  description = "Configures the groups claim issued in a user or OAuth access token that the app expects. Possible values are None, SecurityGroup, DirectoryRole, ApplicationGroup or All."
+  description = "Group membership claims for the application registration"
   type        = string
-  default     = null
+  default     = "None"
 }
 
 variable "homepage_url" {
