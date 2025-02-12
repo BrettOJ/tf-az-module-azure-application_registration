@@ -16,3 +16,4 @@ module "azure_application_registration" {
   support_url                            = var.support_url
   terms_of_service_url                   = var.terms_of_service_url
 }
+
